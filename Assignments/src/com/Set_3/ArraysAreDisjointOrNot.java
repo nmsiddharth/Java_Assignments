@@ -5,30 +5,26 @@ import java.util.Arrays;
 public class ArraysAreDisjointOrNot {
 
 	public static void check() {
-		int arr1[] = {11, 1, 13, 21, 3, 7};
-		int arr2[] = {11, 3, 7, 1};
-	     
-		Arrays.sort(arr1);
-		Arrays.sort(arr2);
+		   int arr1[] = { 15, 14, 91,9, 1 };
+		      int arr2[] = { 24, 5, 21, 85 };
 		
 		
-		boolean flag = true;
+		boolean flag = false;
 		
-		for(int i=0;i<arr2.length;i++) {
-			for(int j=0;j<arr1.length;j++) {
-				if(arr2[i]==arr1[j]) {
+		for(int i=0;i<arr1.length;i++) {
+			for(int j=0;j<arr2.length;j++) {
+				if(arr1[i]==arr2[j]) {
+					flag=true;
 					break;
-				}
-				if(j==arr1.length-1) {
-					flag=false;
 				}
 			}
 		}
-		if(flag==true) {
-			System.out.println("Arr2 is Subset of Arr1");
-		}else {
-			System.out.println("Arr2 is not Subset of Arr1");
+		if (flag == true) {
+		    System.out.println("The arrays are not disjoint");
+		} else {
+		    System.out.println("The arrays are disjoint");
 		}
+
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
