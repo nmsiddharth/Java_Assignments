@@ -23,18 +23,7 @@ public class ArmstrongNumber {
 		return temp+" is not Armstrong Number";
 	}
 	
-//	public static String operate() {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter the Lower Range");
-//		int lower = sc.nextInt();
-//		System.out.println("Enter the Higher Range");
-//		int higher = sc.nextInt();
-//		
-//	for(int i=lower;i<higher;i++) {
-//		int rem =
-//	}
-//		
-//	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(ArmstrongNumber.check());

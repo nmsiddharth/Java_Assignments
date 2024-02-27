@@ -16,7 +16,7 @@ public class AbundantNumber {
 			}
 		}
 		if(sum>temp) {
-			return temp+" is Abundant Number";
+			return temp+" is Abundant Number";   // sum of its proper divisors is greater than the given number
 		}
 		else {
 			return temp+" is not Abundant Number";

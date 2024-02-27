@@ -5,9 +5,9 @@ public class Max_sum_subarray___KADANE_ALGORITHM {
 	public static void check() {
 		int[] arr = {-2,-3,4,-1,-2,1,5,-3};
 		
-		int maxSum = Integer.MIN_VALUE;
+		int maxSum = arr[0];
 		int sum = arr[0];
-		for(int i=0;i<arr.length;i++) {
+		for(int i=1;i<arr.length;i++) {
 			if(sum>=0) {
 				sum += arr[i];
 			}else {

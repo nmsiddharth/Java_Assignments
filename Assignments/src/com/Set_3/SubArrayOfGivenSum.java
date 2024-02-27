@@ -3,8 +3,8 @@ package com.Set_3;
 public class SubArrayOfGivenSum {
 
 	    public static void check() {
-	        int[] arr = {1, 4, 20, 3, 10, 5};
-	        int sum = 33;
+	        int[] arr = {4, 2, -3, 1, 6};
+	        int sum = 0;
 	        int currentSum = 0;
 	        
 	        for(int i=0;i<arr.length-1;i++) {

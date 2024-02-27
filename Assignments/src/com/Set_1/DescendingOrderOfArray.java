@@ -1,5 +1,6 @@
 package com.Set_1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DescendingOrderOfArray {
@@ -26,11 +27,11 @@ public class DescendingOrderOfArray {
 			
 			
 		}
-		
-		for(int data:arr) {
-			System.out.print(data+" ");
-		}
-		//return arr;
+//		
+//		for(int data:arr) {
+//			System.out.print(data+" ");
+//		}
+		System.out.println(Arrays.toString(arr));
 		
 	}
 	public static void main(String[] args) {

@@ -17,7 +17,7 @@ public class MAximumProductInaArray {
 			left *= arr[i];
 			right *= arr[n-1-i];
 			
-			result = Math.max(left, right);
+			result = Math.max(result, Math.max(left, right));
 		}
 		return result;
 	}

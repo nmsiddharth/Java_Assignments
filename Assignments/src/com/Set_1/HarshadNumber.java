@@ -19,7 +19,7 @@ public class HarshadNumber {
 		}
 		
 		if(temp%digit==0) {
-			return temp+" is Harshad Number";
+			return temp+" is Harshad Number";   // number divisible by sum of its digits
 		}
 		else {
 			return temp+" is not Harshad Number";
