@@ -12,7 +12,7 @@ public class FibonacciSeriesUptoNthTerm {
 		int a = 0;
 		int b = 1;
 		int t;
-		System.out.print(a+", "+b+", ");
+		//System.out.print(a+", "+b+", ");
 		for(int i=2;i<=num;i++) {
 			t = a+b;
 			a=b;

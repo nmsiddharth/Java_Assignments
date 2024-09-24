@@ -14,7 +14,7 @@ public class BinaryToDecimal {
 		
 		while(num>0) {
 			int rem = num%10;
-			 decimal =+ rem*Math.pow(2, i++);
+			 decimal += rem*Math.pow(2, i++);
 			num = num/10;
 		}
 		return decimal;

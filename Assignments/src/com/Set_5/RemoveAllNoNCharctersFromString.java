@@ -1,6 +1,6 @@
 package com.Set_5;
 
-public class RemoveAllCharctersFromString {
+public class RemoveAllNoNCharctersFromString {
 
 	public static void check() {
 		String str = "Cris2342tia23@no";

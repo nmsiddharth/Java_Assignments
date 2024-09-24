@@ -12,6 +12,11 @@ public class SymmetricPairs {
 					System.out.print("("+arr[i][0]+"," +arr[i][1]+")");
 				}
 			}
+			
+			
+			
+			
+			
 		}
 	}
 	public static void main(String[] args) {

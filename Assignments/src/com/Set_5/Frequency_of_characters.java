@@ -11,7 +11,7 @@ public class Frequency_of_characters {
 
         for (int i = 0; i < str.length(); i++) {
             if (!map.containsKey(str.charAt(i))) {
-                map.put(str.charAt(i), map.getOrDefault(str.charAt(i), 1));
+                map.put(str.charAt(i), 1);
             } else {
                 map.put(str.charAt(i), map.get(str.charAt(i)) + 1);
             }
